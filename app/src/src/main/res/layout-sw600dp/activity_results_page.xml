@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66a2ba"
+    tools:context=".ResultsPage">
+
+    <Button
+        android:id="@+id/show_results"
+        android:layout_width="269dp"
+        android:layout_height="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="325dp"
+        android:backgroundTint="#243a47 "
+        android:fontFamily="@font/belgrano"
+        android:text="SHOW"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <EditText
+        android:id="@+id/resultscode"
+        android:layout_width="736dp"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:fontFamily="@font/belgrano"
+        android:hint="Enter the same code to see results"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="610dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="319dp"
+        android:ems="10"
+        android:fontFamily="@font/belgrano"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="283dp"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="494dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/belgrano"
+        android:inputType="textPersonName"
+        android:text="WINNER"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66a2ba"
+    tools:context=".HomePage">
+
+    <Button
+        android:id="@+id/poll"
+        android:layout_width="295dp"
+        android:layout_height="116dp"
+        android:backgroundTint="#243a47 "
+        android:fontFamily="@font/belgrano"
+        android:onClick="onClick"
+        android:text="Create Poll"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/results"
+        android:layout_width="288dp"
+        android:layout_height="119dp"
+        android:backgroundTint="#243a47 "
+        android:fontFamily="@font/belgrano"
+        android:onClick="onClick"
+        android:text="RESULTS"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/vote"
+        android:layout_width="286dp"
+        android:layout_height="119dp"
+        android:backgroundTint="#243a47 "
+        android:fontFamily="@font/belgrano"
+        android:onClick="onClick"
+        android:text="Vote"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321"
+        tools:ignore="OnClick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

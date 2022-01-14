@@ -1,0 +1,44 @@
+com/example/votify/databinding/ActivityMainBinding.java
+ com.example.votify.databinding.ActivityMainBinding
+com/example/votify/BuildConfig.java
+ com.example.votify.BuildConfig
+com/example/votify/Candidates.java
+ com.example.votify.Candidates
+com/example/votify/ResultsPage.java
+ com.example.votify.ResultsPage
+com/example/votify/Voting.java
+ com.example.votify.Voting
+com/example/votify/MainActivity.java
+ com.example.votify.MainActivity
+ com.example.votify.MainActivity$1
+com/example/votify/databinding/ActivityHomePageBinding.java
+ com.example.votify.databinding.ActivityHomePageBinding
+com/example/votify/databinding/ActivityResultsPageBinding.java
+ com.example.votify.databinding.ActivityResultsPageBinding
+com/example/votify/CreatePoll.java
+ com.example.votify.CreatePoll
+ com.example.votify.CreatePoll$1
+ com.example.votify.CreatePoll$2
+ com.example.votify.CreatePoll$3
+ com.example.votify.CreatePoll$4
+ com.example.votify.CreatePoll$5
+ com.example.votify.CreatePoll$6
+ com.example.votify.CreatePoll$7
+com/example/votify/databinding/ActivityVotingPageBinding.java
+ com.example.votify.databinding.ActivityVotingPageBinding
+com/example/votify/databinding/ActivityCreatePollBinding.java
+ com.example.votify.databinding.ActivityCreatePollBinding
+com/example/votify/Results.java
+ com.example.votify.Results
+com/example/votify/VotingPage.java
+ com.example.votify.VotingPage
+ com.example.votify.VotingPage$1
+ com.example.votify.VotingPage$2
+ com.example.votify.VotingPage$3
+ com.example.votify.VotingPage$4
+ com.example.votify.VotingPage$5
+com/example/votify/HomePage.java
+ com.example.votify.HomePage
+ com.example.votify.HomePage$1
+ com.example.votify.HomePage$2
+ com.example.votify.HomePage$3

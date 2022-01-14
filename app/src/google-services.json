@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "735873127330",
+    "project_id": "votify-mansi",
+    "storage_bucket": "votify-mansi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735873127330:android:a0761bd84c57a3d23c58fb",
+        "android_client_info": {
+          "package_name": "com.example.votify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735873127330-uij816jmm6hihdo8735i4q6rkorjnc2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFqUujuxGJpeSRiLt450Zz_aCTUBy9jHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735873127330-uij816jmm6hihdo8735i4q6rkorjnc2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
